@@ -18,6 +18,4 @@ class SolarSystem extends React.Component {
   }
 }
 
-// teste
-
 export default SolarSystem;
