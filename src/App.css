@@ -1,3 +1,22 @@
 .App {
   text-align: center;
+  background-image: url("images/background.png");
+  color: aliceblue;
+}
+
+.SolarSystem article {
+  display: flex;
+}
+
+.MissionCard {
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 40%;
+  margin: 15px;
+}
+
+.Missions article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }

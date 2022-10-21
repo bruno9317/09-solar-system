@@ -6,13 +6,15 @@ import PlanetCard from './PlanetCard';
 class SolarSystem extends React.Component {
   render() {
     return (
-      <div data-testid="solar-system">
+      <div data-testid="solar-system" className="SolarSystem">
         <header>
           <Title headline="Planetas" />
         </header>
-        { PlanetList.map((p) => (
-          <PlanetCard key={ p.name } planetName={ p.name } planetImage={ p.image } />
-        )) }
+        <article>
+          { PlanetList.map((p) => (
+            <PlanetCard key={ p.name } planetName={ p.name } planetImage={ p.image } />
+          )) }
+        </article>
       </div>
     );
   }
