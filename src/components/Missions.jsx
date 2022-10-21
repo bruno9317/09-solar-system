@@ -24,4 +24,6 @@ class Missions extends React.Component {
   }
 }
 
+// teste
+
 export default Missions;
